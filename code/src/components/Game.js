@@ -53,12 +53,12 @@ const Description = styled.div`
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     @media (min-width: 667px) and (max-width: 1024px) {
-    font-size: 20px;
-  }
+      font-size: 20px;
+    }
 
-  @media (min-width: 1025px) {
-    font-size: 24px;
-  }
+    @media (min-width: 1025px) {
+      font-size: 24px;
+    }
   }
 
   @media (min-width: 667px) and (max-width: 1024px) {
@@ -71,15 +71,15 @@ const Description = styled.div`
 `
 
 const Choices = styled.div`
-width: 60%;
-margin-bottom: 35px;
+  width: 85%;
+  margin-bottom: 35px;
 
-@media (min-width: 667px) and (max-width: 1024px) {
-width: 50%;
+  @media (min-width: 667px) and (max-width: 1024px) {
+    width: 70%;
   }
 
   @media (min-width: 1025px) {
-  width: 40%;
+    width: 45%;
   }
 `
 

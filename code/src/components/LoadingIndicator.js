@@ -17,7 +17,6 @@ const LoadingWrap = styled.div`
   color: white;
   font-size: 25px;
   font-weight: bold;
-  letter-spacing: 5px;
 `
 
 const Loader = styled.div`
